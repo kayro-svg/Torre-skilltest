@@ -1,11 +1,14 @@
 <template>
   <main>
+
+ <div class="profile">
     <div class="profile-picture">
     <div class="hexagonal-bg">
     <div class="hexagonal-profile">
       <img src="/src/assets/images/perfil.png" alt="#" class="hexagonal-img">
     </div>
-  </div>
+    </div>
+    </div>
 </div>
 <div class="userName">
   <h1>Kayro S. Valero G.</h1><br><br>
@@ -16,6 +19,9 @@
 <style lang="scss" scoped>
 @import url("https://use.typekit.net/jmq5unc.css");
 //Profile picture with hexagonal shape
+
+.profile{
+margin-left: -18px;
 .profile-picture{
   margin-top: 40px;
 }
@@ -47,6 +53,7 @@
   object-fit: cover; /* Ajusta el tamaño de la imagen para cubrir todo el contenedor hexagonal */
   }
 
+}
   .userName{
     text-align: center;
     h1{
