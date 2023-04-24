@@ -235,6 +235,7 @@ font-style: normal;
       font-weight: 100;
       font-size: 13px;
       margin: 20px;
+      
     }
     .sub-profiles{
       color: #a9a9ab;
@@ -278,6 +279,7 @@ font-style: normal;
 .otherProfiles-descriptions{
   display: flex;
   align-items: center;
+  margin-left: -34px;
 }
 .name-description{
   color: #a9a9ab;

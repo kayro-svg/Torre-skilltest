@@ -278,6 +278,7 @@ font-style: normal;
 .otherProfiles-descriptions{
   display: flex;
   align-items: center;
+  margin-left: -34px;
 }
 .name-description{
   color: #a9a9ab;
