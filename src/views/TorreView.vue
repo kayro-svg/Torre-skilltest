@@ -21,7 +21,7 @@
 //Profile picture with hexagonal shape
 
 .profile{
-margin-left: -18px;
+margin-left: -16px;
 .profile-picture{
   margin-top: 40px;
 }
