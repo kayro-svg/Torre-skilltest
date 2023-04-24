@@ -72,7 +72,7 @@ header {
 
       .searchIcon{
         margin-right: 25px;
-        margin-top: 4px;
+        margin-top: 5.5px;
       }
 
       .burguer{
