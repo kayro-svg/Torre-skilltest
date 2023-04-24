@@ -58,7 +58,7 @@ import { RouterLink } from 'vue-router';
  <div class="profile-picture">
     <div class="hexagonal-bg">
     <div class="hexagonal-profile">
-      <img src="../assets/images/profile torrenegra.jpg" alt="#" class="hexagonal-img">
+      <img src="/src/assets/images/profile-torrenegra.jpg" alt="#" class="hexagonal-img">
      </div>
      </div>
   </div>
@@ -85,7 +85,7 @@ import { RouterLink } from 'vue-router';
  <div class="profile-picture">
     <div class="hexagonal-bg">
     <div class="hexagonal-profile">
-      <img src="../assets/images/renan profile.jpg" alt="#" class="hexagonal-img">
+      <img src="/src/assets/images/renan-profile.jpg" alt="#" class="hexagonal-img">
      </div>
      </div>
   </div>
@@ -191,6 +191,7 @@ font-style: normal;
  //User Name features
     .skills-description{
       margin-left: 10px;
+      box-shadow: 0px 8px 13px -9px #000; 
     }
     .subtittle{
       font-weight: 100;

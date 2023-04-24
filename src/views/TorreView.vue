@@ -3,7 +3,7 @@
     <div class="profile-picture">
     <div class="hexagonal-bg">
     <div class="hexagonal-profile">
-      <img src="../assets/images/perfil.png" alt="#" class="hexagonal-img">
+      <img src="/src/assets/images/perfil.png" alt="#" class="hexagonal-img">
     </div>
   </div>
 </div>
@@ -45,5 +45,14 @@
   width: 100%; /* Ajusta el ancho de la imagen al 100% del ancho del contenedor hexagonal */
   height: 100%; /* Ajusta la altura de la imagen al 100% de la altura del contenedor hexagonal */
   object-fit: cover; /* Ajusta el tamaño de la imagen para cubrir todo el contenedor hexagonal */
+  }
+
+  .userName{
+    text-align: center;
+    h1{
+      font-size: 35px;
+    font-weight: 500;
+    }
+    
   }
 </style>
