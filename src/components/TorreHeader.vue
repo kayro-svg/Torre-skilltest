@@ -71,7 +71,7 @@ header {
       }
 
       .searchIcon{
-        margin-right: 25px;
+        margin-right: 23px;
         margin-top: 5.5px;
       }
 
